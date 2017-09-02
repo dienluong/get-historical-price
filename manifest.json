@@ -2,6 +2,8 @@
   "name": "Historical Prices Fetcher",
   "description": "Loads Google Finance's historical prices page",
   "version": "0.1",
+  "icons": { "16": "icon16.png"
+  },
   "permissions": [
     "activeTab"
   ],
