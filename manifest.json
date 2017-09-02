@@ -1,0 +1,16 @@
+{
+  "name": "Historical Prices Fetcher",
+  "description": "Loads Google Finance's historical prices page",
+  "version": "0.1",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Historical Prices"
+  },
+  "manifest_version": 2
+}
