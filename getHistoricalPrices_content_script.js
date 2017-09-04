@@ -1,4 +1,5 @@
 (function getHistoricalPrices() {
+    "use strict";
     if (!(/google/i.test(window.location.hostname))) {
         console.log(window.location.hostname);
         return;
